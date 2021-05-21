@@ -13,9 +13,9 @@ router.post('/', function(req, res, next) {
   	const tempFileName = uuidv1() + '.du';
 
   	fs.writeFile(path.join(process.cwd(), `temp/${tempFileName}`), reqObj.code, (err) => {
-    		if (err) { console.log(err); next(err); }
+    	if (err) { console.log(err); next(err); }
 
-    		const child = spawn('dictu', [`temp/${tempFileName}`]);
+		const child = spawn('dictu', [`temp/${tempFileName}`]);
         let output = [];
 
         child.stdout.on('data', (data) => {
@@ -24,19 +24,23 @@ router.post('/', function(req, res, next) {
 
         });
 
-    		child.on('exit', function (code, signal) {
-  		  	   console.log('child process exited with ' +
-  		              `code ${code} and signal ${signal}`);
-  		  	  res.send(`File - ${tempFileName} code ${code} and signal ${signal} output ${JSON.stringify(output)}`);
-		    });
+		child.on('exit', function (code, signal) {
+			console.log('child process exited with ' +
+					`code ${code} and signal ${signal}`);
+			res.send(`File - ${tempFileName} code ${code} and signal ${signal} output ${JSON.stringify(output)}`);
+		});
 
-		    child.on('error', function(cperr) {
-            console.log(cperr); 
-            next(cperr); 
-        });
+		child.on('error', function(cperr) {
+			console.log(cperr); 
+			next(cperr); 
+		});
   		
   	});
   	
+});
+
+router.get('/newfile', function(req, res, next) {
+	const tempFileName = uuidv1() + '.du';
 });
 
 module.exports = router;
