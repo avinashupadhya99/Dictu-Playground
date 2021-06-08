@@ -16,7 +16,7 @@ The frontend is a react application which uses xterm.js for the web terminal.
 
 ### Contributing
 
-**Prqrequisite** - `node` and `npm` should be installed globally in your environment.
+**Prerequisite** - `node` and `npm` should be installed globally in your environment.
 
 - Fork the repository and clone it in your local environment.
 - `cd frontend` and `npm install` (Do the same with backend)
