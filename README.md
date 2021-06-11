@@ -21,3 +21,9 @@ The frontend is a react application which uses xterm.js for the web terminal.
 - Fork the repository and clone it in your local environment.
 - `cd frontend` and `npm install` (Do the same with backend)
 - `npm start` to start the frontend. (Please refer to [frontend](https://github.com/avinashupadhya99/Dictu-Playground/tree/develop/frontend) for more commands)
+
+### Contributors
+
+<a href="https://github.com/avinashupadhya99/Dictu-Playground/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=avinashupadhya99/Dictu-Playground" />
+</a>
