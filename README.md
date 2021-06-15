@@ -118,6 +118,6 @@ git push -u origin <your_branch_name>
 
 ## License 
 <p align="center">
-<a href="https://github.com/avinashupadhya99/Dictu-Playground/blob/main/README.md">
+<a href="https://github.com/avinashupadhya99/Dictu-Playground/blob/main/LICENSE">
 <img width=35% src="https://media.tenor.com/images/68ecdcb63296f1db6532bf5b83051da9/tenor.gif"></p>
 <h5 align="center"><b>MIT License</b></a> 
