@@ -1,20 +1,3 @@
-# Dictu Playground
-
-A coding playground for [Dictu](https://github.com/dictu-lang/Dictu), a high-level dynamically typed, multi-paradigm, interpreted programming language. To know more about the language, vist the [Dictu Docs](https://dictu-lang.com/)
-
-## Developer Documentation
-
-The repository has 2 parts, the [frontend](https://github.com/avinashupadhya99/Dictu-Playground/tree/develop/frontend) and the [backend](https://github.com/avinashupadhya99/Dictu-Playground/tree/develop/backend).
-
-### Backend
-
-The backend is a node-express server that is run inside Docker containers.
-
-### Frontend
-
-The frontend is a react application which uses xterm.js for the web terminal.
-
-
 ## Contribution Guidelines 🏗
 
 Are we missing any of your favorite features, which you think you can add to it❓ We invite you to contribute to this project and improve it further
@@ -100,24 +83,3 @@ git push -u origin <your_branch_name>
 **16.** Sit back patiently and relax while the project maintainers review your PR. Please understand, at times the time taken to review a PR can vary from a few hours to a few days.
 
 <p align="center"><img src="https://media.tenor.com/images/b562ddcfb131e962f9dfa01bd32a30d1/tenor.gif" width=30%></p>
-
-
-### Contributing
-
-**Prerequisite** - `node` and `npm` should be installed globally in your environment.
-
-- Fork the repository and clone it in your local environment.
-- `cd frontend` and `npm install` (Do the same with backend)
-- `npm start` to start the frontend. (Please refer to [frontend](https://github.com/avinashupadhya99/Dictu-Playground/tree/develop/frontend) for more commands)
-
-### Contributors
-
-<a href="https://github.com/avinashupadhya99/Dictu-Playground/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=avinashupadhya99/Dictu-Playground" />
-</a>
-
-## License 
-<p align="center">
-<a href="https://github.com/avinashupadhya99/Dictu-Playground/blob/main/README.md">
-<img width=35% src="https://media.tenor.com/images/68ecdcb63296f1db6532bf5b83051da9/tenor.gif"></p>
-<h5 align="center"><b>MIT License</b></a> 
