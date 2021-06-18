@@ -1,4 +1,21 @@
+<div align="center">
+  
+<a href="https://github.com/avinashupadhya99/Dictu-Playground"><img src="https://img.shields.io/badge/Open%20Source-%F0%9F%A4%8D-Green"></a>
+<a href="https://github.com/avinashupadhya99/Dictu-Playground"><img src="https://img.shields.io/badge/Built%20by-developers%20%3C%2F%3E-0059b3"></a>
+<a href="https://github.com/avinashupadhya99/Dictu-Playground"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
+<a href="https://github.com/avinashupadhya99"><img src="https://img.shields.io/badge/maintenance-yes-brightgreen"></a>
+
+<a href="https://github.com/avinashupadhya99/Dictu-Playground/blob/main/LICENSE"><img src="https://img.shields.io/github/license/avinashupadhya99/Dictu-Playground?color=brightgreen"></a>
+<a href="https://github.com/avinashupadhya99/Dictu-Playground/stargazers"><img src="https://img.shields.io/github/stars/avinashupadhya99/Dictu-Playground?color=0059b3"></a>
+<a href="https://github.com/avinashupadhya99/Dictu-Playground/network/members"><img src="https://img.shields.io/github/forks/avinashupadhya99/Dictu-Playground?color=yellow"></a>
+<a href="https://github.com/avinashupadhya99/Dictu-Playground/graphs/contributors"><img src="https://img.shields.io/github/contributors/avinashupadhya99/Dictu-Playground?color=brightgreen"></a>
+<a href="https://github.com/avinashupadhya99/Dictu-Playground/issues"><img src="https://img.shields.io/github/issues/avinashupadhya99/Dictu-Playground?color=0059b3"></a>
+<a href="https://github.com/avinashupadhya99/Dictu-Playground/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/avinashupadhya99/Dictu-Playground?color=yellow"></a>
+<a href="https://github.com/avinashupadhya99/Dictu-Playground/pulls"><img src="https://img.shields.io/github/issues-pr/avinashupadhya99/Dictu-Playground?color=brightgreen"></a>
+<a href="https://github.com/avinashupadhya99/Dictu-Playground/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/avinashupadhya99/Dictu-Playground?color=0059b3"></a>  
+
 # Dictu Playground
+</div>
 
 A coding playground for [Dictu](https://github.com/dictu-lang/Dictu), a high-level dynamically typed, multi-paradigm, interpreted programming language. To know more about the language, vist the [Dictu Docs](https://dictu-lang.com/)
 
