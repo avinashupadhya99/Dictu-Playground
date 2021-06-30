@@ -3,13 +3,24 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "lint": "eslint --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": [
+        "npm run lint -- --fix",
+        "git add"
+      ]
+    }
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
+    "eslint": "^7.29.0",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "husky": "^6.0.0",
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
     "uuid": "^8.3.1"
