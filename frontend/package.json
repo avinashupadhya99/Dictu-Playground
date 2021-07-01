@@ -17,13 +17,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint src/ --fix"
+    "lint": "eslint src/ --fix",
+    "prepare": "cd .. && husky install frontend/.husky"
   },
   "husky": {
     "hooks": {
-      "pre-commit": [
-        "npm run lint -- --fix"
-      ]
+      "pre-commit": "cd frontend && npm run lint -- --fix",
+      "commit-msg": "cd frontend && npx --no-install commitlint --edit $1"
     }
   },
   "eslintConfig": {
@@ -43,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4"
   }
 }
