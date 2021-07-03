@@ -4,14 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "lint": "eslint --fix",
-    "prepare": "cd .. && husky install backend/.husky"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "cd backend && npm run lint -- --fix",
-      "commit-msg": "cd backend && npx --no-install commitlint --edit $1"
-    }
+    "lint": "eslint --fix"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
